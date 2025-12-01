@@ -54,10 +54,10 @@
             development practices (Composition API). The initial setup prioritized system stability and scalability.
           </p>
           <p class="sub-paragraph">
-            The core work involved establishing a clean, maintainable architecture through extensive   **component-based
-            development**  . I developed a suite of reusable components (e.g., query boxes, data tables, modal windows)
+            The core work involved establishing a clean, maintainable architecture through extensive    component-based
+            development  . I developed a suite of reusable components (e.g., query boxes, data tables, modal windows)
             to ensure code consistency, readability, and efficient maintenance across the Home, Gallery, and Creation
-            Center modules. Optimized the   **Vue Router**   system with dynamic loading and navigation guards to
+            Center modules. Optimized the    Vue Router   system with dynamic loading and navigation guards to
             enhance application performance and user interaction flow.
           </p>
         </div>
@@ -66,13 +66,13 @@
           <p class="card-label">Design & Optimization Focus: User Experience</p>
           <h3>User Experience (UX) & Visual Layer Optimization</h3>
           <p>
-            Emphasized a   **user-centric design approach**   by thoroughly analyzing user interaction paths and
+            Emphasized a    user-centric design approach   by thoroughly analyzing user interaction paths and
             use-case scenarios for each page.
           </p>
           <p class="sub-paragraph">
-            I meticulously designed the   **visual hierarchy**  , employing subtle techniques like color partitioning,
+            I meticulously designed the    visual hierarchy  , employing subtle techniques like color partitioning,
             layered shadowing, and hover animations to improve data interpretability in display modules. Crucially, I
-            integrated smooth   **interactive effects**   (e.g., fade-in/fade-out, slide transitions) into form
+            integrated smooth    interactive effects   (e.g., fade-in/fade-out, slide transitions) into form
             interactions and notification systems to provide fluid system feedback and an overall premium user
             experience, recognizing UX as critical for functional adoption.
           </p>
@@ -82,14 +82,14 @@
           <p class="card-label">AI Integration Focus: Prompt Engineering</p>
           <h3>AI Workflow & Prompt Engineering Support</h3>
           <p>
-            Actively participated in the integration and debugging of the   **DeepSeek-FLUX**   model, a key component
+            Actively participated in the integration and debugging of the    DeepSeek-FLUX   model, a key component
             in generating highly coherent imagery.
           </p>
           <p class="sub-paragraph">
-            My specific role involved optimizing the   **Prompt Engineering workflow**  . This included iterative
+            My specific role involved optimizing the    Prompt Engineering workflow  . This included iterative
             debugging and refinement of the pipeline to ensure that the initial narrative text is efficiently and
             accurately translated into a series of precise, high-quality image generation instructions. This process was
-            paramount in guaranteeing the   **semantic coherence, visual consistency, and logical sequencing**  
+            paramount in guaranteeing the    semantic coherence, visual consistency, and logical sequencing  
             required for a multi-scene illustration set.
           </p>
         </div>
@@ -108,14 +108,14 @@
           <span class="step-number">STEP 1</span>
           <h3 class="step-title">DeepSeek Model: Text Analysis and Decomposition</h3>
           <p>
-            The project employs the   **DeepSeek Large Language Model**   to process the user's input story text. This
+            The project employs the    DeepSeek Large Language Model   to process the user's input story text. This
             involves:
           <ul class="process-list">
-            <li>  **Feature Extraction:**   Identifying key narrative elements, setting, style cues, and emotional tones
+            <li>   Feature Extraction:   Identifying key narrative elements, setting, style cues, and emotional tones
               present in the text.</li>
-            <li>  **Scene Segmentation:**   Logically splitting the overall story into distinct, chronologically ordered
+            <li>   Scene Segmentation:   Logically splitting the overall story into distinct, chronologically ordered
               scenes.</li>
-            <li>  **Prompt Generation:**   Converting the extracted features for each scene into sophisticated,
+            <li>   Prompt Generation:   Converting the extracted features for each scene into sophisticated,
               multi-faceted prompts optimized for image generation, ensuring they encode specific instructions for
               character and environment preservation.</li>
           </ul>
@@ -126,14 +126,14 @@
           <span class="step-number">STEP 2</span>
           <h3 class="step-title">Stable Diffusion: Coherent Image Generation</h3>
           <p>
-            The generated scene-specific prompts are then fed sequentially into the   **Stable Diffusion model**  . The
+            The generated scene-specific prompts are then fed sequentially into the    Stable Diffusion model  . The
             process focuses on critical output factors:
           <ul class="process-list">
-            <li>  **Style Unification:**   Utilizing control mechanisms (like LORA/ControlNet, implied by FLUX) to
+            <li>   Style Unification:   Utilizing control mechanisms (like LORA/ControlNet, implied by FLUX) to
               ensure a single artistic style is maintained across all generated images.</li>
-            <li>  **Logical Sequencing:**   The prompt pipeline is constructed to guide the model through the narrative
+            <li>   Logical Sequencing:   The prompt pipeline is constructed to guide the model through the narrative
               progression.</li>
-            <li>  **Character Consistency:**   Advanced techniques are applied during generation to retain consistent
+            <li>   Character Consistency:   Advanced techniques are applied during generation to retain consistent
               character features (face, clothing, appearance) throughout the entire story illustration set.</li>
           </ul>
           </p>
@@ -156,19 +156,19 @@
           <span class="point-text">01</span>
           <p><strong>Coherent Continuous Illustration Generation:</strong> Utilizes the optimized DeepSeek-FLUX-Stable
             Diffusion pipeline to deliver superior scene continuity, maintaining visual style and detail, alongside  
-            **strong character and environment consistency**   across multiple images—ideal for serialized content and
+             strong character and environment consistency   across multiple images—ideal for serialized content and
             storyboarding.</p>
         </div>
         <div class="item">
           <span class="point-text">02</span>
-          <p><strong>Advanced Text-to-Prompt Logic:</strong> Leverages the   **DeepSeek**   language model for
+          <p><strong>Advanced Text-to-Prompt Logic:</strong> Leverages the    DeepSeek   language model for
             intelligent narrative analysis, feature extraction, and automated prompt decomposition, moving beyond simple
             keyword generation to create truly cohesive visual sequences.</p>
         </div>
         <div class="item">
           <span class="point-text">03</span>
           <p><strong>Low Barrier to Entry and High Accessibility:</strong> The platform offers a sleek, user-friendly
-            Web UI supporting   **intuitive navigation and one-click generation**  , ensuring high-quality art creation
+            Web UI supporting    intuitive navigation and one-click generation  , ensuring high-quality art creation
             is accessible to non-professional users and individual content creators.</p>
         </div>
         <div class="item">
@@ -213,14 +213,14 @@
         <div class="tech-item">
           <p class="tech-label">AI Core</p>
           <h3>Model Integration</h3>
-          <p>Combines   **Stable Diffusion**   for image generation with the   **DeepSeek (GPT)**   large language model
+          <p>Combines    Stable Diffusion   for image generation with the    DeepSeek (GPT)   large language model
             for advanced text analysis and prompt decomposition.</p>
         </div>
         <div class="tech-item">
           <p class="tech-label">System Architecture</p>
           <h3>Full Stack Technology</h3>
-          <p>Frontend:   **Vue 3 (Composition API)**  ; Backend:   **Spring Boot (RESTful API)**  ; Database:  
-            **MySQL** (Core schema designed and implemented for user and image data).</p>
+          <p>Frontend:    Vue 3 (Composition API)  ; Backend:    Spring Boot (RESTful API)  ; Database:  
+             MySQL (Core schema designed and implemented for user and image data).</p>
         </div>
       </div>
     </section>
